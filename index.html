@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HREXT07 R00lz!</title>
+  <title>Plant Tracker</title>
   <script
           src="https://code.jquery.com/jquery-3.3.1.js"
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -23,17 +23,28 @@
 container for the response-feedback (start with alert)
 -->
 </head>
+  <style>
+    body { background: url(https://static1.squarespace.com/static/554276a2e4b00f9b9e16d627/t/5ab2cc06f950b7e6e7e181e4/1519943392578/AdobeStock_106348508.jpeg); background-size: 100%; color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;}
+    
+  </style>
+
 <body>
+<script>
+    alert("Don't forget to water your plants!")
+</script>
 
 <div class="container-main">
-  <header>My Cruddy App</header>
-  <div class="container-form">
-    <input type="text" class="input-key" placeholder="enter key">
-    <input type="text" class="input-value" placeholder="enter value">
+  <header><center><font face="Courier New"; font size="6">My Plant Inventory</header>
+  <div class="container-form"><font face="Courier New"; font size="5">
+    <input type="text" class="input-key" placeholder="Enter plant type">
+    <input type="text" class="input-value" placeholder="Enter quantity">
     <button class="btn-add">Submit</button>
     <button class="btn-update">Update</button>
     <button class="btn-delete">Delete</button>
     <button class="btn-clear">Clear</button>
+    <button class="btn-random">Random Plant!</button>
+
   </div>
   <div class="container-data"></div>
 </div>

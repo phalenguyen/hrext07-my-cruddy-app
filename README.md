@@ -12,4 +12,4 @@ Create Read Update and Delete framework using JS
 - [ ] UI/UX considerations (how are we going to use this)
 
 ### Advanced Reqs
-- [ ] Item that I added goes here...
+- [ ] Random Plant generator
