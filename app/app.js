@@ -39,7 +39,7 @@ $('.btn-delete').click(function(e){
 
     $('.display-data-item').each(function() {
       if ($(divIWantToEdit).data('keyvalue') === keyData) {
-        divIWantToEdit.removeItem(keyData + ': ' + valueData);      }
+        divIWantToEdit.text('');}
     })
   })
 
